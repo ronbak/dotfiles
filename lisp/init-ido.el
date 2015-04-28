@@ -1,5 +1,5 @@
 (require 'ido)
-(require 'ido-ubiquitous)
+(require-package 'ido-ubiquitous)
 (ido-mode t)
 (setq ido-enable-flex-matching t)
 (ido-everywhere t)

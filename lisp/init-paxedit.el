@@ -1,4 +1,4 @@
-(require 'paxedit)
+(require-package 'paxedit)
 
 (eval-after-load "paxedit"
   '(progn (define-key paxedit-mode-map (kbd "M-<right>") 'paxedit-transpose-forward)
