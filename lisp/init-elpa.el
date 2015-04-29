@@ -5,6 +5,15 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/"))
 
+(setq package-pinned-packages
+                '(
+                  (cider              . "melpa-stable")
+                  (ac-cider      . "melpa-stable")
+                  (flycheck-clojure . "melpa-stable")
+                  (clojure-mode       . "melpa-stable")
+                  (rainbow-delimiters . "melpa-stable")
+                  ;; "unstable" package
+                  ))
 
 (defun require-package (package &optional min-version no-refresh)
   "Install given PACKAGE, optionally requiring MIN-VERSION.

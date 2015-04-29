@@ -1,4 +1,5 @@
 (require 'init-clojure)
+
 (require-package 'cider)
 (require-package 'ac-cider)
 
