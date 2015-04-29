@@ -1,5 +1,6 @@
 (require-package 'clojure-mode)
 (require-package 'cljsbuild-mode)
+(require-package 'clj-refactor)
 (require-package 'rainbow-delimiters)
 (require-package 'rainbow-identifiers)
 ;;TODO checkout elein to run lein from emacs
