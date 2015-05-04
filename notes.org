@@ -1,0 +1,7 @@
+* Key Bindings
+** Finding Key-Bindings
+   http://stackoverflow.com/questions/2845934/emacs-print-key-binding-for-a-command-or-list-all-key-bindings
+   -C-h f (or M-x describe-function) shows the bindings for a command.
+   -C-h b (or M-x describe-bindings) shows all bindings 
+   -C-h m (M-x describe-mode) lists bindings by mode.
+   -C-h k (M-x describe-key) shows what command is bound to a key

@@ -7,6 +7,7 @@
 
 (require 'init-utils)
 (require 'init-elpa)
+(require 'init-backups)
 
 (require 'init-color-themes)
 (require 'init-autocomplete)
