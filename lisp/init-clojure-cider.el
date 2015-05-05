@@ -21,6 +21,10 @@
 			      (clj-refactor-mode 1)
 			      (cljr-add-keybindings-with-prefix "C-c r")))
 
+
+(setq cider-show-error-buffer 'except-in-repl)
+(setq cider-auto-select-error-buffer nil)
+
 (require-package 'flycheck-clojure)
 (after-load 'flycheck
  (flycheck-clojure-setup))

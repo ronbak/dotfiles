@@ -11,9 +11,9 @@
                   (ac-cider      . "melpa-stable")
                   (flycheck-clojure . "melpa-stable")
                   (clojure-mode       . "melpa-stable")
-		  (clj-refactor . "melpa-stable")
+                  (clj-refactor . "melpa-stable")
                   (rainbow-delimiters . "melpa-stable")
-		  (auto-complete . "melpa-stable")
+                  (auto-complete . "melpa-stable")
                   ;; "unstable" package
                   ))
 
