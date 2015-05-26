@@ -10,6 +10,7 @@
 (require 'init-backups)
 (require 'init-visuals)
 
+(require 'init-org)
 (require 'init-color-themes)
 (require 'init-autocomplete)
 (require 'init-ido)
