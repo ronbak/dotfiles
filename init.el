@@ -11,6 +11,7 @@
 (require 'init-visuals)
 
 (require 'init-org)
+(require 'init-markdown)
 (require 'init-color-themes)
 (require 'init-autocomplete)
 (require 'init-ido)
