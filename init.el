@@ -12,6 +12,7 @@
 
 (require 'init-org)
 (require 'init-markdown)
+(require 'init-langtool)
 (require 'init-color-themes)
 (require 'init-autocomplete)
 (require 'init-ido)
