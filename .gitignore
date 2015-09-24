@@ -14,5 +14,5 @@ elpa
 .cask
 
 #caches
-ido.last
-ac-comphist.dat
+.emacs/ido.last
+.emacs/ac-comphist.dat
