@@ -16,3 +16,7 @@ elpa
 #caches
 .emacs/ido.last
 .emacs/ac-comphist.dat
+.emacs/eshell/
+.emacs/session.*
+.lein/self-installs/
+
