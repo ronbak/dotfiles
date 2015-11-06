@@ -1,5 +1,9 @@
 (require-package 'evil)
+(require-package 'evil-surround)
+(require-package 'evil-jumper)
 (evil-mode t)
+(global-evil-surround-mode 1)
+(evil-jumper-mode t)
 
 
 (define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
