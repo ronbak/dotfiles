@@ -4,6 +4,6 @@
 (require 'color-theme-solarized)
 (color-theme-initialize)
 ;; set dark theme
-(color-theme-solarized-dark)
+;(color-theme-solarized-dark)
 
 (provide 'init-color-themes)
