@@ -6,6 +6,7 @@
 (with-eval-after-load 'markdown-mode
   (add-hook 'markdown-mode-hook  (lambda () (flyspell-mode t)))
   (add-hook 'markdown-mode-hook (lambda () (variable-pitch-mode t)))
+  (add-hook 'markdown-mode-hook #'visual-line-mode)
   (add-hook 'markdown-mode-hook (lambda () (set-face-attribute 'variable-pitch nil :height 180)))
   (add-hook 'markdown-mode-hook (lambda () (set-face-font
 					    'variable-pitch

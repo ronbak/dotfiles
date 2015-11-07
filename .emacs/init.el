@@ -1,6 +1,5 @@
 (setq inhibit-startup-message t)
 ;;;;add line numbers
-(global-linum-mode t)
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
@@ -23,6 +22,7 @@
 (require 'init-clojure-cider)
 ;;load this last
 (require 'init-evil)
+(require 'init-ace-jump)
 
 
 ;;append the directory name to not unique file (buffer) names
