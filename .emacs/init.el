@@ -22,7 +22,7 @@
 (require 'init-clojure-cider)
 ;;load this last
 (require 'init-evil)
-(require 'init-ace-jump)
+(require 'init-avy)
 
 
 ;;append the directory name to not unique file (buffer) names
