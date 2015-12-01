@@ -19,4 +19,5 @@ elpa
 .emacs/eshell/
 .emacs/session.*
 .lein/self-installs/
+projectile*
 
