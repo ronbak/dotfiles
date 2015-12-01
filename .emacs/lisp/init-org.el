@@ -1,7 +1,11 @@
 
 (with-eval-after-load 'org
   (add-hook 'org-mode-hook  (lambda () (setq truncate-lines nil)))
-  (add-hook 'org-mode-hook  (lambda () (flyspell-mode t))))
+  (add-hook 'org-mode-hook  (lambda () (flyspell-mode t)))
+  (add-hook 'markdown-mode-hook (lambda () (set-face-attribute 'variable-pitch nil :height 180)))
+  (add-hook 'markdown-mode-hook (lambda () (set-face-font
+					    'variable-pitch
+					    "-unkown-Crimson Text-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1"))))
 
 ;;for displaying embedded pictures in the buffer
 (setq org-image-actual-width nil)
