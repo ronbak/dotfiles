@@ -15,6 +15,7 @@
 )
 	
 (add-auto-mode 'clojure-mode "\\.cljs\\'")
+(add-auto-mode 'clojure-mode "\\.boot\\'")
 
 (provide 'init-clojure)
 
