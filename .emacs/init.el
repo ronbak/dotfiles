@@ -15,11 +15,11 @@
 (require 'init-langtool)
 (require 'init-color-themes)
 (require 'init-autocomplete)
-;(require 'init-ido)
 (require 'init-paxedit)
 (require 'init-auctex)
 (require 'init-clojure)
 (require 'init-clojure-cider)
+(require 'init-magit)
 ;;load this last
 (require 'init-evil)
 (require 'init-avy)
