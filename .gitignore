@@ -20,4 +20,7 @@ elpa
 .emacs/session.*
 .lein/self-installs/
 projectile*
+cache
 
+#boot
+boot.properties
