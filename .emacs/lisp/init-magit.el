@@ -2,3 +2,4 @@
 ;; (setq evil-magit-state 'motion)
 (require-package 'magit)
 (require-package 'evil-magit)
+(provide 'init-magit)

@@ -1,5 +1,5 @@
 (require-package 'auctex)
-(setq-default TeX-master "main.tex")
+;(setq-default TeX-master "main.tex")
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq TeX-PDF-mode t)
