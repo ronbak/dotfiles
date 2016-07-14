@@ -20,6 +20,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-magit)
+(require 'init-smooth-scroll)
 ;;load this last
 (require 'init-evil)
 (require 'init-avy)

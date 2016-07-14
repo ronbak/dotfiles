@@ -12,6 +12,17 @@
 ;;use C-u for scrolling
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
 (define-key evil-visual-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-normal-state-map (kbd "C-d") 'evil-scroll-down)
+(define-key evil-visual-state-map (kbd "C-d") 'evil-scroll-down)
+
+(define-key evil-insert-state-map "\C-e" 'end-of-line)
+(define-key evil-insert-state-map "\C-a" 'move-beginning-of-line)
+(define-key evil-insert-state-map "\C-f" 'evil-forward-char)
+(define-key evil-insert-state-map "\C-f" 'evil-forward-char)
+(define-key evil-insert-state-map "\C-b" 'evil-backward-char)
+(define-key evil-insert-state-map "\C-d" 'evil-delete-char)
+(define-key evil-insert-state-map "\C-n" 'evil-next-line)
+(define-key evil-insert-state-map "\C-p" 'evil-previous-line)
 
 ;;ctrl-h is help and I need it more urgently than switching windows
 ;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
