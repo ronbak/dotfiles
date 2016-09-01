@@ -5,7 +5,7 @@
   (add-hook 'markdown-mode-hook (lambda () (set-face-attribute 'variable-pitch nil :height 180)))
   (add-hook 'markdown-mode-hook (lambda () (set-face-font
 					    'variable-pitch
-					    "-unkown-Crimson Text-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1"))))
+					    "-unknown-Crimson Text-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1"))))
 
 ;;for displaying embedded pictures in the buffer
 (setq org-image-actual-width nil)
